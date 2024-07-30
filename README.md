@@ -38,3 +38,6 @@ Exemplos:
 **<html>** - Elemento raiz, envolve a cabeća, corpo e tudo que tem nele. 
 **<head>>** - Onde fica o <tittle>, link para páginas CSS e todo tipo de títulos de coisas.
 **<body>** = Conteúdo da página - Tudo que deseja mostrar em sua página Web
+
+**Estrutura de comentário**
+- <!-- Isso é um comentário --> - Atalho **ctrl+/**
