@@ -12,5 +12,16 @@
 
 
 **<tagname>My Content</tagname>** 
-    **<h1>Tag de Título</h1>** 
-    **<p>Parágrafo</p>** 
+**Tags Comuns** 
+- **<html>** Elemento raiz de uma página web, tudo que colocar dentro de uma página web, ficará dentro dessa tag.
+- **<head>**
+- **<title>** Título do doc
+- **<body>** Conteúdo do doc
+- **<h1>-<h6>** Títulos
+- **<p>** Parágrafos
+- **<a>** Links
+- **<img>** Imagens
+- **<ul>-<ol>** Listas ordenadas ou não
+- **<table>** Tabelas
+- **<div><span>** Conteiners genéricos
+- **<form>-<input>** Formulários e entradas
