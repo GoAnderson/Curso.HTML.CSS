@@ -3,9 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS Sandbox</title>
+    <title>Apartament Search</title>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - HTML Form Challenge</h1>
+
+    <h2>Apartament Search</h2>
+    <form>
+      <div>
+        <label for="cidade">Cidade</label>
+        <input 
+        type="text" 
+        id="cidade"
+        name="cidade"
+        placeholder="Cidade"
+        />
+      </div>
+      <div>
+        <label for="estado">Estado</label>
+        <input 
+        type="text" 
+        id="estado"
+        name="estado"
+        placeholder="Estado"
+        />
+      </div>
+      <div>
+        <label for="pais">País</label>
+        <input 
+        type="text" 
+        id="pais"
+        name="pais"
+        placeholder="País"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="tick">Tip Amount</label>
+        <input type="range" name="tick" id="tick" list="tickmarks" min="0" max="100">
+    
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+      <br />
+      <div>
+        <label for="quartos">Quartos</label>
+        <input 
+        type="text" 
+        id="quartos"
+        name="quartos"
+        placeholder="Quartos"
+        />
+      </div>
+      <div>
+        <label for="Camas">Camas</label>
+        <input 
+        type="text" 
+        id="Camas"
+        name="Camas"
+        placeholder="Camas"
+        />
+      </div>
+      <div>
+        <label for="Banheiro">Banheiro</label>
+        <input 
+        type="text" 
+        id="Banheiro"
+        name="Banheiro"
+        placeholder="Banheiro"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Pets">
+          <input 
+          type="checkbox" 
+          id="Pets"
+          name="Pets"
+          /> Pets
+        </label>
+      </div>
+      <br />
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+
+
+    </form>
+
+
+
+
   </body>
 </html>
