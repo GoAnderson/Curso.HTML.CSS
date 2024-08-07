@@ -1,3 +1,22 @@
 body {
   font-family: Arial, sans-serif;
+  /* RGB */
+  /* background-color: rgb(255; 255; 255); */
+}
+
+/* Colo Names */
+.sporty {
+  color: red;
+}
+
+/* Hex Values */
+.casual {
+  color: #e04553;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /* HSL */
+  background-color: hsl(0, 100%, 50%);
 }
