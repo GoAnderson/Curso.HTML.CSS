@@ -11,7 +11,7 @@ body {
 } */
 
 a {
-  display: block;
+  display: inline;
   background-color: lightblue;
   color: white;
   padding: 30px;
