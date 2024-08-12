@@ -16,4 +16,14 @@ body {
 
 .card {
   background-color: #373f4d;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.card h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 300;
 }
