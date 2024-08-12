@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #f4f4f4;
+  background: #f1f1f1;
 }
 
 .container {
@@ -26,4 +26,35 @@ body {
   font-size: 22px;
   margin-bottom: 15px;
   font-weight: 300;
+}
+
+.card p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.card .form-group {
+  margin-bottom: 20px;
+}
+
+.card input[type='text'] {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.card button[type='submit'] {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  border: none;
+  color: white;
+  background: lightblue;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: rebeccapurple;
 }
