@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: lightblue;
+}
+
+.container p {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+
+.card-1 {
+  background-color: white;
+
+}
+
+.card-1 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}

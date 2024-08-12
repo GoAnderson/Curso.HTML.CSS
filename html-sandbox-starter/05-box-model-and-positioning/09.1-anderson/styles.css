@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+}
+
+.box-bigger {
+    background-color: #303843;
+    color: white;
+    width: 350px;
+    height: 350px;
+    /* position: relative;
+    left: 400px;
+    bottom: -100px; */
+}
+
+.box-title {
+    position: relative;
+    left: 60px;
+    bottom: -70px;
+}
+
+.box-inputs {
+    position: relative;
+    left: 40px;
+    bottom: -90px;
+}
+
+p {
+    font-size: small;
+}
+
+
+#email {
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+}
+
+#botao {
+    background: orangered;
+    color: white;
+    width: 259px;
+    height: 40px;
+    margin: 5px;
+}
