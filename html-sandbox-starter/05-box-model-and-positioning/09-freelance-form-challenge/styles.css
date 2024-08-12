@@ -8,3 +8,12 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #f4f4f4;
 }
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+}
+
+.card {
+  background-color: #373f4d;
+}
