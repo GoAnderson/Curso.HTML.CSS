@@ -1,3 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #d9e2e8;
+}
+
+.container {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 0 20px;
+}
+
+/* card */
+.card {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Heading colors */
+.card-sporty h2 {
+  color: #e04553;
+}
+
+.card-casual h2 {
+  color: #e04553;
+}
+
+.card-formal h2 {
+  color: #e04553;
 }
