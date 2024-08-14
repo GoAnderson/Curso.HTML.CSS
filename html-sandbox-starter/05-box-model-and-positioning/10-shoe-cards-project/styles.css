@@ -43,9 +43,48 @@ body {
 }
 
 .card-casual h2 {
-  color: #e04553;
+  color: #0d4ba3;
 }
 
 .card-formal h2 {
-  color: #e04553;
+  color: #512b22;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  opacity: 0.9;
+}
+
+.card-sporty a {
+  background-color: #e04553;
+}
+
+.card-casual a {
+  background-color: #0d4ba3;
+}
+
+.card-formal a {
+  background-color: #512b22;
+}
+
+.card-sporty {
+  background: #fff url('./images/sporty.png') no-repeat center right;
+  background-size: 200px;
+}
+
+.card-casual {
+  background: #fff url('./images/casual.png') no-repeat center right;
+  background-size: 200px;
+}
+
+.card-formal {
+  background: #fff url('./images/formal.png') no-repeat center right;
+  background-size: 200px;
 }
