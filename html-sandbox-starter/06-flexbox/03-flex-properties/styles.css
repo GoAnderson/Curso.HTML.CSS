@@ -6,6 +6,7 @@ body {
   background: lightblue;
   width: 100%;
   display: flex;
+
 }
 
 .flex-item {
@@ -13,4 +14,11 @@ body {
   border: 1px solid black;
   padding: 20px;
   width: 200px;
+
+}
+
+.item-3 {
+  /* Tem que ter um width, ele vai manter o tamanho enquanto diminui */
+  flex-shrink: 2;
+
 }
