@@ -151,4 +151,9 @@ li {
   .pricing {
     flex-direction: column;
   }
+
+  .container {
+    margin: 2rem;
+    padding: 40px 30px;
+  }
 }
